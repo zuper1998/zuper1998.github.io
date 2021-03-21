@@ -3,6 +3,7 @@
 + The sweet spot looks like its around the inclination of 55
 + Only Changing inclination doesnt really give a good answer 
 + long asc node seems good place to start 
+
 ## Q:
 + what diff should i use for multiple satiletes?
 	+ Maybe just different launch time? 
