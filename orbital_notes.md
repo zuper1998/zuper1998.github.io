@@ -9,6 +9,8 @@
 	+ SaVi's tool is great for generating satellites like this 
 	+ [Relevant IEEE article](https://ieeexplore.ieee.org/document/4102386)
 
++ to convert lat lon alt to earth centered coordinate system use [this](https://github.com/geospace-code/pymap3d)
+
 ## Q:
 + what diff should i use for multiple satiletes?
 	+ Maybe just different launch time? 
