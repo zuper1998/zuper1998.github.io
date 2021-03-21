@@ -5,6 +5,8 @@
 + long asc node seems good place to start 
 + SaVi sattelite architecture follow:
 	+ `semi-major axis| eccentricity | inclination | longitude asc. node | argument of periapsis | time of periapsis | sat name `
+
+
 ## Q:
 + what diff should i use for multiple satiletes?
 	+ Maybe just different launch time? 
