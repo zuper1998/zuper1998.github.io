@@ -5,7 +5,9 @@
 + long asc node seems good place to start 
 + SaVi sattelite architecture follow:
 	+ `semi-major axis| eccentricity | inclination | longitude asc. node | argument of periapsis | time of periapsis | sat name `
-+ rosette constellation: if i get this right it gives you a constellation that gives a good amount of visibility
++ rosette constellation: if i get this right it gives you a constellation that gives a good amount of visibility 
+	+ SaVi's tool is great for generating satellites like this 
+	+ [Relevant IEEE article](https://ieeexplore.ieee.org/document/4102386)
 
 ## Q:
 + what diff should i use for multiple satiletes?
