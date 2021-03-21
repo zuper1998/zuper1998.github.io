@@ -4,6 +4,8 @@
 	+ setable angle for coverage 
 + premade but editable satellite constellations 
 + easily generate satellite constelations
++ you can use the Ballard Rosette tool to generate Rosette constellations!
+
 ### Would be nice to have
 + The possibilty to export to TLE 
 
