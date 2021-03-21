@@ -14,4 +14,4 @@
 	+ Maybe just different launch time? 
 	+ Then what is the "GOOD" time, when will the sat arrive back to the same point over the earth?
 	+ K: http://castor2.ca/08_Papers/Zenith_Ranging.pdf
-+
++ Is True anomaly = `360*time of periapsis/orbitalperiod` ? 
