@@ -10,6 +10,8 @@
 	+ [Relevant IEEE article](https://ieeexplore.ieee.org/document/4102386)
 
 + to convert lat lon alt to earth centered coordinate system use [this](https://github.com/geospace-code/pymap3d)
++ Quantum rosette 5,5 is a problem child idk why 
+
 
 ## Q:
 + what diff should i use for multiple satiletes?
