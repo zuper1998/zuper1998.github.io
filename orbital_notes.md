@@ -11,7 +11,7 @@
 
 + to convert lat lon alt to earth centered coordinate system use [this](https://github.com/geospace-code/pymap3d)
 + Quantum rosette 8,1 is a problem child idk why 
-
++ PVcoordinates can be used for reeaaaaly good position data [PVcoordinates documentation](https://www.orekit.org/site-orekit-development/apidocs/org/orekit/utils/PVCoordinates.html)
 
 ## Q:
 + what diff should i use for multiple satiletes?
