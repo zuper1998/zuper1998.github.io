@@ -6,6 +6,7 @@
 + bacsardi Dr disertation for qber to qqbit rate
 + 111/112 page 
 + R_Distilled is in bits per secon bps
++ Tau link is transmitence
 
 ### B92
 + modified BB84
