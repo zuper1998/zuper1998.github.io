@@ -4,6 +4,8 @@
 + using polarization bases for quantum effects 
 + Ezt használjuk 
 + bacsardi Dr disertation for qber to qqbit rate
++ 111/112 page 
++ R_Distilled is in Bps
 
 ### B92
 + modified BB84
