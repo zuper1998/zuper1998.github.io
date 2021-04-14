@@ -2,6 +2,8 @@
 + everybody knows this 
 + only on trusted 
 + using polarization bases for quantum effects 
++ Ezt használjuk 
++ bacsardi Dr disertation for qber to qqbit rate
 
 ### B92
 + modified BB84
