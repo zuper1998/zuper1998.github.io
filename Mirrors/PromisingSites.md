@@ -6,3 +6,6 @@ https://listoffreeware.com/free-optics-simulation-software-windows/
 # http://www.oeabt.com/dome/simulator/
 + good but cluncky 
 + free form glasses
+
+# https://www.codeseeder.com/
++ need matlab for it
