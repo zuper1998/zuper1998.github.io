@@ -225,6 +225,8 @@ WIRESHARK!!! -- komponenses gepen
 ```
 ```
 ./nr-ue -c ../config/open5gs-ue0.yaml 
+./nr-ue -c ../config/open5gs-ue1.yaml 
+
 ```
 ## UE beregisztralasa -- Komponensen
 ```
@@ -238,7 +240,8 @@ admin@1423
 
 ### BEALITASOK
 UE0
-![](https://gyazo.com/8fc312ceb03f60928402680538bd2f8a.png =650x)UE1
+![](https://gyazo.com/8fc312ceb03f60928402680538bd2f8a.png =650x)
+UE1
 ![](https://gyazo.com/5c871b65ca2b888aad0062913690df91.png =650x)
 Restart gNB 
 
