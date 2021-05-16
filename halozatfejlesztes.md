@@ -80,6 +80,13 @@ cd ~
 git clone https://github.com/aligungr/UERANSIM
 ```
 ### UPF
+`sudo apt update`
+`sudo apt install software-properties-common`
+`sudo add-apt-repository ppa:open5gs/latest`
+`sudo apt update`
+`sudo apt install open5gs`
+`sysctl -w net.ipv4.ip_forward=1`
+
 #### upf.yaml
 ```
 upf:
@@ -187,3 +194,18 @@ sessions:
       sd: 1
     emergency: false
 ```
+#### OGSTUN-ok létrehozása
+```
+ip tuntap add name ogstun mode tun
+ip addr add 10.45.0.1/16 dev ogstun
+ip link set ogstun up
+
+iptables -t nat -A POSTROUTING -s 10.45.0.0/16 ! -o ogstun -j MASQUERADE
+
+ip tuntap add name ogstun2 mode tun
+ip addr add 10.46.0.1/16 dev ogstun2
+ip link set ogstun2 up
+
+iptables -t nat -A POSTROUTING -s 10.46.0.0/16 ! -o ogstun2 -j MASQUERADE
+```
+
