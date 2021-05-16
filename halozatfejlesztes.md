@@ -11,7 +11,12 @@
 `sudo add-apt-repository ppa:open5gs/latest`
 `sudo apt update`
 `sudo apt install open5gs`
-
+```
+apt update
+apt install mongodb
+systemctl start mongodb
+systemctl enable mongodb
+```
 AMF.yaml modositasa:
 178 sor
 ````
@@ -80,13 +85,14 @@ cd ~
 git clone https://github.com/aligungr/UERANSIM
 ```
 ### UPF
-`sudo apt update`
-`sudo apt install software-properties-common`
-`sudo add-apt-repository ppa:open5gs/latest`
-`sudo apt update`
-`sudo apt install open5gs`
-`sysctl -w net.ipv4.ip_forward=1`
-
+```
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:open5gs/latest
+sudo apt update
+sudo apt install open5gs
+sysctl -w net.ipv4.ip_forward=1
+```
 #### upf.yaml
 ```
 upf:
@@ -208,4 +214,6 @@ ip link set ogstun2 up
 
 iptables -t nat -A POSTROUTING -s 10.46.0.0/16 ! -o ogstun2 -j MASQUERADE
 ```
+
+
 
