@@ -22,6 +22,7 @@ URANSIM:
 ```
 cd ~
 git clone https://github.com/aligungr/UERANSIM
+cd UERANSIM
 make
 ```
 ### UPF
