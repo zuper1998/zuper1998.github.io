@@ -6,9 +6,10 @@
 ```
 
 ### Taralomjegyzek
-[config](config.md)
 
-[Install](Install.md)
+[I. Install](Install.md)
 
-[Intercace_setup_es_running](Interfeszek.md)
+[II. config](config.md)
+
+[III. Intercace_setup_es_running](Interfeszek.md)
 
