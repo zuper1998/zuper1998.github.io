@@ -6,5 +6,7 @@
 ```
 
 ### Taralomjegyzek
-
+[config](config.md)
 [Install](Install.md)
+[Intercace setup es running](Interfeszek es egyebek.md)
+
