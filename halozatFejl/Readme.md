@@ -10,5 +10,5 @@
 
 [Install](Install.md)
 
-[Intercace_setup_es_running](Interfeszek es egyebek.md)
+[Intercace_setup_es_running](Interfeszek.md)
 
