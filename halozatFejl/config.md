@@ -190,4 +190,4 @@ upf:
         dnn: internet2
         dev: ogstun2
 ```
-
+systemctl restart open5gs-upfd
