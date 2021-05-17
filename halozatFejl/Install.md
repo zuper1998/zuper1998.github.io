@@ -21,6 +21,7 @@ systemctl enable mongodb
 URANSIM: 
 ```
 cd ~
+sudo apt install git
 git clone https://github.com/aligungr/UERANSIM
 cd UERANSIM
 make
