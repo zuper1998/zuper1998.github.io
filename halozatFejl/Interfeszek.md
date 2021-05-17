@@ -51,6 +51,7 @@ cd URERANSIM/build
 ./nr-gnb -c ../config/open5gs-gnb.yaml
 ```
 ```
+sudo su
 ./nr-ue -c ../config/open5gs-ue0.yaml 
 ./nr-ue -c ../config/open5gs-ue1.yaml 
 
@@ -69,4 +70,7 @@ ping google.com -I uesimtun1 -n
 vim /var/log/open5gs/smf.log
 vim /var/log/open5gs/amf.log
 ```
+## UPF gép
+`vim /var/log/open5gs/upf.log`
+
 
