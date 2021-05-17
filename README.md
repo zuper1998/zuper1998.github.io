@@ -11,3 +11,6 @@
 [orekit](orekit_notes.md)
 
 [QKDSTUFF](QKD_PROTOCOLS_TLDR.md)
+
+#### Halozat fejlesztes
+[AAAAAAAAAAA](halozatFejl/Install.md)
