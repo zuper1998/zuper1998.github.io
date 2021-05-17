@@ -67,6 +67,9 @@ upf:
 `systemctl restart open5gs-smfd`
 
 ### GNB & UE
+sudo apt install vim
+sudo vim /home/meres/UERANSIM/gnb.yaml
+
 #### gnb.yaml
 
 ```
