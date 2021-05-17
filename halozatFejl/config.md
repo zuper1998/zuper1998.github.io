@@ -62,8 +62,9 @@ upf:
         dnn: [internet, internet2]
 ```
 
-systemctl restart open5gs-amfd
-systemctl restart open5gs-smfd
+`systemctl restart open5gs-amfd`
+
+`systemctl restart open5gs-smfd`
 
 ### GNB & UE
 #### gnb.yaml
