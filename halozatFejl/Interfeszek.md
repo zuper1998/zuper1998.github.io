@@ -31,6 +31,8 @@ localhost:3000
 admin@1423
 
 ### BEALITASOK
+Space-k kiszedése!!! subscriber keynél
+
 UE0
 ![](https://gyazo.com/8fc312ceb03f60928402680538bd2f8a.png =650x)
 UE1
