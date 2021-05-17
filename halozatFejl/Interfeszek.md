@@ -15,10 +15,12 @@ iptables -t nat -A POSTROUTING -s 10.46.0.0/16 ! -o ogstun2 -j MASQUERADE
 ## Inditas
 WIRESHARK!!! -- komponenses gepen 
 ### UPF
-systemctl restart open5gs-upfd
+`systemctl restart open5gs-upfd`
 ### Komponensek
+```
 systemctl restart open5gs-amfd
 systemctl restart open5gs-smfd
+```
 ## UE beregisztralasa -- Komponensen
 ```
 sudo apt update
@@ -37,7 +39,8 @@ UE0
 ![](https://gyazo.com/8fc312ceb03f60928402680538bd2f8a.png =650x)
 UE1
 ![](https://gyazo.com/5c871b65ca2b888aad0062913690df91.png =650x)
-session dnn: internet2
+
+GUI-n session config alatt át kell állítani a session dnn-t internet2-re
 
 Restart gNB 
 
