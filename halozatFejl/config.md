@@ -101,7 +101,6 @@ ignoreStreamIds: true
 
 `sudo vim /home/meres/UERANSIM/config/open5gs-ue`
 
-`/home/meres/UERANSIM/config/open5gs-ue /home/meres/UERANSIM/config/open5gs-ue1`
 #### UE config 0
 
 ```
@@ -152,7 +151,9 @@ integrityMaxRate:
   uplink: 'full'
   downlink: 'full'
 ```
+`/home/meres/UERANSIM/config/open5gs-ue /home/meres/UERANSIM/config/open5gs-ue1`
 
+`sudo vim /home/meres/UERANSIM/config/open5gs-ue1`
 #### UE 1
 ```
 # IMSI number of the UE. IMSI = [MCC|MNC|MSISDN] (In total 15 or 16 digits)
