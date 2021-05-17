@@ -1,15 +1,6 @@
 ### Komponensek: 
-```
-sudo apt update
-sudo apt install software-properties-common
-sudo add-apt-repository ppa:open5gs/latest
-sudo apt update
-sudo apt install open5gs
-apt update
-apt install mongodb
-systemctl start mongodb
-systemctl enable mongodb
-```
+sudo apt install vim
+sudo vim /etc/open5gs/amf.yaml
 AMF.yaml modositasa:
 178 sor
 ````
@@ -40,7 +31,7 @@ amf:
             sd: 1
 
 ````
-
+sudo vim /etc/open5gs/amf.yaml
 ### smf.yaml
 319. sor
 ```
@@ -71,21 +62,8 @@ upf:
         dnn: [internet, internet2]
 ```
 
-### UE gNB
-URANSIM: 
-```
-cd ~
-git clone https://github.com/aligungr/UERANSIM
-```
 ### UPF
-```
-sudo apt update
-sudo apt install software-properties-common
-sudo add-apt-repository ppa:open5gs/latest
-sudo apt update
-sudo apt install open5gs
-sysctl -w net.ipv4.ip_forward=1
-```
+
 #### upf.yaml
 ```
 upf:
