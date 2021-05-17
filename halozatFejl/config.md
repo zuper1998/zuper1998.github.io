@@ -33,7 +33,9 @@ amf:
 ````
 sudo vim /etc/open5gs/amf.yaml
 ### smf.yaml
+
 319. sor
+
 ```
 smf:
     sbi:
@@ -54,7 +56,9 @@ smf:
       - addr: 10.46.0.1/16
         dnn: internet2
 ```
+
 427  sor: 
+
 ```
 upf:
     pfcp:
