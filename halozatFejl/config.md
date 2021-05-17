@@ -170,6 +170,10 @@ sessions:
 ### UPF
 
 #### upf.yaml
+`sudo apt install vim `
+
+`sudo vim /etc/open5gs/upf.yaml`
+
 ```
 upf:
     pfcp:
