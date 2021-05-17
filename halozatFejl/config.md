@@ -99,8 +99,9 @@ ignoreStreamIds: true
 ```
 
 
-sudo vim /home/meres/UERANSIM/config/open5gs-ue
-/home/meres/UERANSIM/config/open5gs-ue /home/meres/UERANSIM/config/open5gs-ue1
+`sudo vim /home/meres/UERANSIM/config/open5gs-ue`
+
+`/home/meres/UERANSIM/config/open5gs-ue /home/meres/UERANSIM/config/open5gs-ue1`
 #### UE config 0
 
 ```
