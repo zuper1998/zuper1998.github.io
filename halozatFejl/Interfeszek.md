@@ -37,6 +37,8 @@ UE0
 ![](https://gyazo.com/8fc312ceb03f60928402680538bd2f8a.png =650x)
 UE1
 ![](https://gyazo.com/5c871b65ca2b888aad0062913690df91.png =650x)
+session dnn: internet2
+
 Restart gNB 
 
 ### GNB es UE
