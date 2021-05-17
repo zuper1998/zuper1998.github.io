@@ -62,24 +62,8 @@ upf:
         dnn: [internet, internet2]
 ```
 
-### UPF
-
-#### upf.yaml
-```
-upf:
-    pfcp:
-      - addr: 10.1.2.103
-    gtpu:
-      - addr: 10.1.2.103
-    subnet:
-      - addr: 10.45.0.1/16
-        dnn: internet
-        dev: ogstun
-      - addr: 10.46.0.1/16
-        dnn: internet2
-        dev: ogstun2
-```
-### gnb.yaml
+### GNB & UE
+#### gnb.yaml
 
 ```
 mcc: '001'          # Mobile Country Code value
@@ -170,3 +154,22 @@ sessions:
       sst: 1
       sd: 1
     emergency: false
+```
+### UPF
+
+#### upf.yaml
+```
+upf:
+    pfcp:
+      - addr: 10.1.2.103
+    gtpu:
+      - addr: 10.1.2.103
+    subnet:
+      - addr: 10.45.0.1/16
+        dnn: internet
+        dev: ogstun
+      - addr: 10.46.0.1/16
+        dnn: internet2
+        dev: ogstun2
+```
+
