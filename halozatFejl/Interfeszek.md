@@ -53,6 +53,8 @@ cd URERANSIM/build
 
 ```
 
-## Teszteles: 
+## Teszteles UE gép: 
 ```
 ping google.com -I uesimtun0 -n
+ping google.com -I uesimtun1 -n
+```
