@@ -13,4 +13,4 @@
 [QKDSTUFF](QKD_PROTOCOLS_TLDR.md)
 
 #### Halozat fejlesztes
-[AAAAAAAAAAA](halozatFejl/Install.md)
+[AAAAAAAAAAA](halozatFejl/Readme.md)
