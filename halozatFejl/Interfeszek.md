@@ -19,16 +19,6 @@ systemctl restart open5gs-upfd
 ### Komponensek
 systemctl restart open5gs-amfd
 systemctl restart open5gs-smfd
-
-### GNB es UE
-```
-./nr-gnb -c ../config/open5gs-gnb.yaml
-```
-```
-./nr-ue -c ../config/open5gs-ue0.yaml 
-./nr-ue -c ../config/open5gs-ue1.yaml 
-
-```
 ## UE beregisztralasa -- Komponensen
 ```
 sudo apt update
@@ -45,6 +35,16 @@ UE0
 UE1
 ![](https://gyazo.com/5c871b65ca2b888aad0062913690df91.png =650x)
 Restart gNB 
+
+### GNB es UE
+```
+./nr-gnb -c ../config/open5gs-gnb.yaml
+```
+```
+./nr-ue -c ../config/open5gs-ue0.yaml 
+./nr-ue -c ../config/open5gs-ue1.yaml 
+
+```
 
 ## Teszteles: 
 ```
