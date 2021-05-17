@@ -12,5 +12,8 @@
 
 [QKDSTUFF](QKD_PROTOCOLS_TLDR.md)
 
+#### Trading notes
+[Quantum](Investing/Quantum.md)
+
 #### Halozat fejlesztes
 [AAAAAAAAAAA](halozatFejl/Readme.md)
