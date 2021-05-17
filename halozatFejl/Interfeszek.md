@@ -14,6 +14,11 @@ iptables -t nat -A POSTROUTING -s 10.46.0.0/16 ! -o ogstun2 -j MASQUERADE
 ```
 ## Inditas
 WIRESHARK!!! -- komponenses gepen 
+### UPF
+systemctl restart open5gs-upfd
+### Komponensek
+systemctl restart open5gs-amfd
+systemctl restart open5gs-smfd
 
 ### GNB es UE
 ```
