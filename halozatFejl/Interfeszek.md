@@ -25,6 +25,7 @@ sudo apt update
 sudo apt install curl
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt install nodejs
+curl -fsSL https://open5gs.org/open5gs/assets/webui/install | sudo -E bash -
 ```
 localhost:3000 
 admin@1423
