@@ -1,5 +1,5 @@
 #### OGSTUN-ok létrehozása
-
+```
 ip tuntap add name ogstun mode tun
 ip addr add 10.45.0.1/16 dev ogstun
 ip link set ogstun up
@@ -11,7 +11,7 @@ ip addr add 10.46.0.1/16 dev ogstun2
 ip link set ogstun2 up
 
 iptables -t nat -A POSTROUTING -s 10.46.0.0/16 ! -o ogstun2 -j MASQUERADE
-
+```
 ## Inditas
 WIRESHARK!!! -- komponenses gepen 
 
