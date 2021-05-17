@@ -68,7 +68,7 @@ upf:
 
 ### GNB & UE
 sudo apt install vim
-sudo vim /home/meres/UERANSIM/gnb.yaml
+sudo vim /home/meres/UERANSIM/config/gnb.yaml
 
 #### gnb.yaml
 
@@ -98,6 +98,9 @@ slices:
 ignoreStreamIds: true
 ```
 
+
+sudo vim /home/meres/UERANSIM/config/open5gs-ue
+/home/meres/UERANSIM/config/open5gs-ue /home/meres/UERANSIM/config/open5gs-ue1
 #### UE config 0
 
 ```
