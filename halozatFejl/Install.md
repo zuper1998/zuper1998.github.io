@@ -23,6 +23,9 @@ URANSIM:
 cd ~
 sudo apt install git
 sudo snap install cmake --classic
+sudo apt install g++
+sudo apt install libsctp-dev lksctp-tools
+sudo apt install iproute2
 git clone https://github.com/aligungr/UERANSIM
 cd UERANSIM
 make
