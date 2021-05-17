@@ -22,6 +22,7 @@ URANSIM:
 ```
 cd ~
 sudo apt install git
+sudo apt install cmake
 git clone https://github.com/aligungr/UERANSIM
 cd UERANSIM
 make
