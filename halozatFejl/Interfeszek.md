@@ -43,6 +43,7 @@ Restart gNB
 
 ### GNB es UE
 ```
+sudo su
 cd URERANSIM/build
 ./nr-gnb -c ../config/open5gs-gnb.yaml
 ```
