@@ -11,8 +11,8 @@ sudo apt install software-properties-common
 sudo add-apt-repository ppa:open5gs/latest
 sudo apt update
 sudo apt install open5gs
-apt update
-apt install mongodb
+sudo apt update
+sudo apt install mongodb
 systemctl start mongodb
 systemctl enable mongodb
 ```
