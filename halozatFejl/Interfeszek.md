@@ -53,8 +53,17 @@ cd URERANSIM/build
 
 ```
 
-## Teszteles UE gép: 
+## Teszteles 
+
+## UE gép: 
 ```
 ping google.com -I uesimtun0 -n
 ping google.com -I uesimtun1 -n
 ```
+
+## Komponens gep
+```
+vim /var/log/open5gs/smf.log
+vim /var/log/open5gs/amf.log
+```
+
