@@ -6,6 +6,10 @@
 
 [MSC](MSC_TDK/orekitAlgo.md)
 
+###đ ELSŐSEGÉLY 
+
+[AllInOne](Elsosegely/AllInOne.md)
+
 #### OTHER
 [SaVi with GeomView](geom_and_savi.md)
 
