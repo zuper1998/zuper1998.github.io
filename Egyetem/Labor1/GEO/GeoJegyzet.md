@@ -8,9 +8,11 @@
 DSRC -- dedicated shor range communications 
 
 Támogatott modulációl: BPSK, QPSK, 16QAM, 64QAM
+
 Kódolási arányok: 1/2,2/3,3/4
 
 7 csatorna: **6 szolgáltatási csatorna**,**1 valós idejű a biztonságos kapcsolathoz**
+
 EU frekvencia allokáció: **5,850 -- 5,925 GHz**
 
 Frekvencia tartomány:
