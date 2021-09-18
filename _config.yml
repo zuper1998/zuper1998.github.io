@@ -1,17 +1,1 @@
-theme: jekyll-theme-simplex
-logo_img: /assets/img/icons/golasblog_logo.svg #Absolute path to the logo. If not specified, the title will be displayed instead.
-copyright: © Narcano 2021
-
-collections:
-    category:
-        output: true
-    authors:
-        output: false
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
+remote_theme: pages-themes/architect@v0.2.0
