@@ -30,5 +30,90 @@ Két féle állomás tipus:
 
 Minden állomást egy egyedi GeoNetworking cím azonosít. A GeoNetowrking Cím megtalálható minden csomag fejlécében
 
-
 [GeoNetworking cim felepitese](https://gyazo.com/8faffb0c8044bb823c1f36060120f404)
+
+```
+M: manuálisan állították e be a címet - 1 igen, 0 nem 
+
+ST: ITS-S tipusát adja meg 
+
+MID: hozzáférési hálózat címe, ITS-G5 alatt ez 48 bites MAC (LL_ADR - LOW LEVEL ADDRESS)
+```
+
+
+### GeoNetworking adatstruktúrák
+
+Minden GeoAdhoc router egy lokációs táblát tart karban, ebben a következők vannak:
+
+GN_ADDR - ITS-S GeoNetworking címe
+
+LL_ADDR - ITS-S MAC címe 
+
+TYPE_ITS_S - ITS-S tipusa
+
+GeoNetworking_version - verzió 
+
+PV: Position Vector 
+```
+Földrajzi pozició: POS(GN_ADDR)
+
+Sebesség: S(GN_ADDR)
+
+Haladás iránya H(GN_ADDR)
+
+Földrajzi pozició időbélyege: TST(POS, GN_ADDR)
+
+Pocició pontosság indikátor P AI(POS, GN_ADDR)
+```
+
+LS_PENDING(GN_ADDR): Location Service folyamatban van e 
+
+IS_NEIGHBOUR(GN_ADDR): GeoAdhoc router szomszédos e 
+
+SN(GN_ADDR): Szekvencia sorszám 
+
+TST(GN_ADDR): Időbélyeg 
+
+PDR(GN_ADR): Packed data rate 
+ 
+
+### GeoNetworking csomag felépítése
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
