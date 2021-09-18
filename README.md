@@ -10,6 +10,12 @@
 
 [AllInOne](Elsosegely/AllInOne.md)
 
+
+#### EGYETEM
+[GeoLab](Egyetem/Labor1/GEO/GeoJegyzet.md)
+
+
+
 #### OTHER
 [SaVi with GeomView](geom_and_savi.md)
 
