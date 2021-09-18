@@ -1,6 +1,6 @@
 ## ITS protocoll stack: 
 
-[protocol stack](https://gyazo.com/5b2464e22a6c1ea3521160298c0689db.png)
+![protocol stack](https://gyazo.com/5b2464e22a6c1ea3521160298c0689db.png)
 
 
 ## 802.11/Wawe/DSRC:
@@ -17,7 +17,7 @@ EU frekvencia allokáció: **5,850 -- 5,925 GHz**
 
 Frekvencia tartomány:
 
-[Frekvencia tartomany](https://gyazo.com/01b400c3963da2e24e447c8189de7772.png)
+![Frekvencia tartomany](https://gyazo.com/01b400c3963da2e24e447c8189de7772.png)
 
 ## Geo networking protokoll
 
@@ -30,7 +30,7 @@ Két féle állomás tipus:
 
 Minden állomást egy egyedi GeoNetworking cím azonosít. A GeoNetowrking Cím megtalálható minden csomag fejlécében
 
-[GeoNetworking cim felepitese](https://gyazo.com/8faffb0c8044bb823c1f36060120f404.png)
+![GeoNetworking cim felepitese](https://gyazo.com/8faffb0c8044bb823c1f36060120f404.png)
 
 ```
 M: manuálisan állították e be a címet - 1 igen, 0 nem 
@@ -82,9 +82,17 @@ PDR(GN_ADR): Packed data rate
 
 Fejléc: 
 
-[Fejlec](https://i.gyazo.com/298a31629bbc0262854ce7f191d0189a.png)
+![Fejlec](https://i.gyazo.com/298a31629bbc0262854ce7f191d0189a.png)
 
 
+3 részből tevődik össze: 
++ basic
++ common 
++ extended: tartalma és mérete a csomag tipusától függ
+
+A basic header felépítése minden csomagtipus esetén azonos: 
+
+![basic header](https://i.gyazo.com/f83903b7891ac80cb56a23cc8603fcf7.png)
 
 
 
