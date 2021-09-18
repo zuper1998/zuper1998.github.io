@@ -6,11 +6,6 @@
 
 [MSC](MSC_TDK/orekitAlgo.md)
 
-#### ELSŐSEGÉLY 
-
-[AllInOne](Elsosegely/AllInOne.md)
-
-
 #### EGYETEM
 [GeoLab](Egyetem/Labor1/GEO/GeoJegyzet.md)
 
