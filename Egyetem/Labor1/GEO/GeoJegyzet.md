@@ -95,12 +95,21 @@ A basic header felépítése minden csomagtipus esetén azonos:
 ![basic header](https://i.gyazo.com/f83903b7891ac80cb56a23cc8603fcf7.png)
 
 
+A közös fejléc a csomag küldőjének földrajzi pozicióját tartalmazza. Felépítése minden csomagtipus esetén azonos.
 
 
+![Common header](https://gyazo.com/5f7cd7a21fe22f937c9bf5f46c128815.png)
 
 
+Fontosabb mezők: 
++ NH - Next Header: a csomag tipusát: BTP-A, BTP-B, IPv6
++ HT - Header type: a csomag tipusát adja meg az alábbi értékek szerint:
 
+![csomagtipus](https://gyazo.com/e058e9ebfe4589d606eda6b8eaf1c9fa.png)
 
+**Fontosabb üzenettipusok:**
+
+![](https://gyazo.com/3abe62f9fc72fe8ce97dfb36e3f82078.png)
 
 
 
