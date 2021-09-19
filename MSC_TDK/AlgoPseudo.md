@@ -1,6 +1,6 @@
 Optic Algo:
 
-
+```
 TimelineEdge:
 Node: NStart
 Node: NEnd
@@ -9,11 +9,13 @@ Date: End
 num: Duration 
 num[Duration]: Distance between nodes
 num[Duration]: Angle -- in case of one node being a city node 
-
+```
 
 
 In: N TimelineEdge's, K Nodes, StartTimelineEdge, Node: Target
+
 Out: Best Path
+
 Algo:
 ```
 Num: max = 0
@@ -74,6 +76,7 @@ if(Delta>0):
 ```
 
 Algo: TrimToWindowSize 
+
 In: Path that it is used on 
 ```
 delta = Path duration - MAX_TIME
