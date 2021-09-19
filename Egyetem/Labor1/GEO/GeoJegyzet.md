@@ -129,7 +129,114 @@ BTP-B: **egyirányú**
 
 ### Header felépítés beli különbségek:
 
-![](https://gyazo.com/e81e94387f10e074323f27d033aeea1c)
+![](https://gyazo.com/e81e94387f10e074323f27d033aeea1c.png)
+
+
+
+## ITRI WAVE/DSRC 
+
+32 bites Big Edian proci -- Normális a little edian
+
+Linux kernel fut -- 2.6.32.45
+
+
+
+## Konfiguráció:
+
+### Sávszélesség és vivő konfiguráció
+
+![](https://gyazo.com/27f410f8952248eac6186cf73f8344c1.png)
+
+`echo "wave0 XX@YYYY" > /proc/sys/wave/channel`
+
+### Adási teljesítmény: 
+
+
+` echo "wave0  X" > /proc/sys/wave/txpower` -- X in \[9 , 25]
+
+### Adatátviteli sebesség: 
+
+![](https://gyazo.com/f5ba812f68c490be1fbeea82a3ccc5d5.png)
+
+`echo "wave0 X" > /proc/sys/wave/txrate`
+
+
+### Statisztikák
+
+`cat /proc/sys/wave/stats`
+
+
+### Üzenetek frekvenciájának beállítása 
+
+`echo X > /proc/sys/net/gn/bea_retrans_timer ` -- X\[ms]  
+
+### GN csomagok élettartama
+
+`echo X > /proc/sys/net/gn/default_pkt_lifetime ` -- X \[s]
+
+### SAJAT GN címhez tartozó adatok megtekintése
+
+`cat /proc/net/gn/lpv `
+
+
+### Szomszédos GN címek(hez) tartozó adat(ok) megtekintése 
+
+`cat /proc/net/gn/loc `
+
+
+### GN helyinformációk beállítása
+
+```
+echo 511234567 > /proc/sys/net/gn/local_latitude 
+echo 51234567 > /proc/sys/net/gn/local_longitude 
+```
+
+
+## C++ part
+
+### Create, bind and use socket:
+
+`int socket(int domain, int type, int protocol)`
+
+In our case we will be using: 
+
+`sd = socket(PF_BTP, SOCK_RAW,0);`
+
+We bind it with: 
+
+`int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen) `
+
+where: 
+
+`err = bind(sd, (struct sockaddr*) &sbs, sizeof(sbs)); `
+
+We use it by: 
+
+`sendto(sd, msg, 2048, 0, (struct sockaddr *) &sbs, sizeof(sbs))); `
+
+We receive these texts by: 
+
+`int recvfrom(sd, msg, 2048, 0, (struct sockaddr *) &sbs, &len)`
+
+And at last we can close it with: 
+
+`close(sd)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
