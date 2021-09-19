@@ -115,9 +115,21 @@ Fontosabb mezők:
 
 
 
+## BTP -- Basic Transport Protocol
 
+Kapcsolatmentes
 
+Point-to-Point
 
+GeoNetworkingre épül 
+
+BTP-A: **interaktív kétirányú**
+
+BTP-B: **egyirányú**
+
+### Header felépítés beli különbségek:
+
+![](https://gyazo.com/e81e94387f10e074323f27d033aeea1c)
 
 
 
