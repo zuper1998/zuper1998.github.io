@@ -10,6 +10,8 @@
 #### EGYETEM
 [GeoLab](Egyetem/Labor1/GEO/GeoJegyzet.md)
 
+[MapReduce](Egyetem/Labor1/MapReduce/hdfs.md)
+
 
 
 #### OTHER
