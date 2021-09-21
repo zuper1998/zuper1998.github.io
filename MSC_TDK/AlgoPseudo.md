@@ -1,3 +1,13 @@
+Name Ideas:
+
+
+Optical Transmittance based Routing Algorithm for Deterministically Changing Graphs -- OTRADCG
+
+Deterministically Changing Graph Routing Algorithm for Optical Transmittance based connections -- DCGRAOT
+
+
+
+
 Optic Algo:
 
 ```
