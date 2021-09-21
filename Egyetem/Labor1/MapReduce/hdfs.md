@@ -11,6 +11,11 @@ Block structured system with predermined size
 
 Master/Slave architecture 
 
+Hadoop cluster Architecture:
+
+![](https://i.imgur.com/DXtlvb1.png)
+
+
 ### Name Node 
 + maintains and manages the Data nodes (slaves)
 + Records Metadata of files stored 
@@ -41,6 +46,29 @@ Funcions:
 
 NOT a backup NameNode 
 
+Combines EditLogs with FsImage and copies it back to the NameNode which is used when it starts up again 
+
+Reads Metadata from the RAM of NameNode and writes it to the hdd 
+
+### Blocks
+
+blocksize is 128MB -- big to avoid overhead due to many blocks 
+
+### Replication Management 
+
+![](https://i.imgur.com/DEsAyB8.png)
+
+The data is stored trough block along multiple nodes, these blocks are replicated to increase robostusness 
+
+### Rack Awareness 
+
+![](https://i.imgur.com/mbfQ2tp.png)
+
+Ensures that the replicas are not stored on the same rack 
 
 
+### HDFS read write architecture 
 
+Follows: Write once read many
+
+`
