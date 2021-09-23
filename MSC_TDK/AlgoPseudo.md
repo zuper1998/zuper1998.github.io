@@ -5,6 +5,9 @@ Optical Transmittance based Routing Algorithm for Deterministically Changing Gra
 
 Deterministically Changing Graph Routing Algorithm for Optical Transmittance based connections -- DCGRAOT
 
+GRADOTC -- Graph Routing Algorithm for Opticall Transmittance Based Connections 
+
+
 
 
 
