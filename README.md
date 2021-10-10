@@ -12,7 +12,7 @@
 
 [MapReduce](Egyetem/Labor1/MapReduce/hdfs.md)
 
-[Mininet](gyetem/Labor1/SDN_MININET/jegyzet.md)
+[Mininet](Egyetem/Labor1/SDN_MININET/jegyzet.md)
 
 #### OTHER
 [SaVi with GeomView](geom_and_savi.md)
