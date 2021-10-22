@@ -2,6 +2,12 @@
 #### NOTES
 [orbital simulator notes](orbital_notes.md)
 
+#### TOOLS to look at
+
+[QISKIT METAL](https://qiskit.org/documentation/metal/)
+[QISKIT](https://qiskit.org)
+
+
 #### TDK
 
 [MSC](MSC_TDK/orekitAlgo.md)
