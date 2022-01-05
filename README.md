@@ -31,6 +31,12 @@
 
 [QKDSTUFF](QKD_PROTOCOLS_TLDR.md)
 
+### Cool learning courses 
+
+[A Hands-on Introduction to Engineering Simulations](https://learning.edx.org/course/course-v1:CornellX+ENGR2000X+1T2018/home)
+
+[student level ansys](https://www.ansys.com/academic/students/ansys-student)
+
 #### Trading notes
 [Quantum](Investing/Quantum.md)
 
