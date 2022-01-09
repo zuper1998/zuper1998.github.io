@@ -8,6 +8,8 @@
 [QISKIT](https://qiskit.org)
 
 
+
+
 #### TDK
 
 [MSC](MSC_TDK/orekitAlgo.md)
@@ -19,6 +21,10 @@
 [MapReduce](Egyetem/Labor1/MapReduce/hdfs.md)
 
 [Mininet](Egyetem/Labor1/SDN_MININET/jegyzet.md)
+
+
+[Szambizt](/Szambizt/Readme.md)
+
 
 #### OTHER
 [SaVi with GeomView](geom_and_savi.md)
